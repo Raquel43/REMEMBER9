@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "nombre":"Emilio",
+        "email":"emilio@gmail.com",
+        "img":"emilio.jpg",
+        "password":"1234"
+    },
+    {
+        "id":2,
+        "nombre":"Raquel",
+        "email":"raquel@gmail.com",
+        "img":"raquel.jpg",
+        "password":"raquel44"
+    },
+    {
+        "id":3,
+        "nombre":"Cristina",
+        "email":"cristina@gmail.com",
+        "img":"cristina.jpg",
+        "password":"cristina20"
+    },
+    {
+        "id":2,
+        "nombre":"Alex",
+        "email":"alex@gmail.com",
+        "img":"alex.jpg",
+        "password":"alex31"
+    }
+]

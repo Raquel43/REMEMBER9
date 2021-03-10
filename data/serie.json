@@ -1,0 +1,68 @@
+[
+	{
+		"titol":"La edad de Oro de los Samuráis",
+		"sinopsi":"Las dinámicas reconstrucciones y los comentarios de los expertos dan vida a la turbulenta historia y las luchas de poder del Japón feudal en guerra del siglo XVI.",
+		"genere":"Documental sociocultural",
+		"any": "2021",
+		"img":"samurai.jpg"
+		
+	},
+
+	{
+		"titol":"Detrás de sus ojos",
+		"sinopsi":"6 episodios. Una madre soltera se adentra en un mundo de manipulaciones perversas al iniciar un amorío con su jefe y una amistad secreta con su enigmática esposa.",
+		"genere":["drama", "intriga"],
+		"any":"2021",
+		"img":"behind_her_eyes.jpg"
+	
+	},
+
+	{
+		"titol":"Los Bridgerton",
+		"sinopsi":"Basada en las célebres novelas de Julia Quinn, la serie narra las vidas de los ocho hermanos Bridgerton mientras buscan amor y felicidad en la alta sociedad londinense.",
+		"genere":"Romántica",
+		"any":"2020",
+		"img":"bridge.jpg"
+	},
+	{
+		"titol":"Ozark",
+		"sinopsi":"Marty Byrde (Jason Bateman) es un asesor financiero con una aparente vida normal en familia. Casado con Wendy (Laura Linney) y con dos hijos, Charlotte (Sofia Hublitz) y Jonah (Skylar Gaertner), todos llevan una vida apacible y ordinaria. Pero bajo esa apariencia la vida de Marty esconde un gran secreto..",
+		"genere":["drama", "Crimen", "Drogas"],
+		"any":"2017",
+		"img":"ozark.jpg"
+		
+	},
+	{
+		"titol":"3%",
+		"sinopsi":"La élite del futuro reside en una isla paradisiaca, lejos de las barriadas superpobladas. Solo el 3 % de los jóvenes llega a la isla: los que superan el Proceso.",
+		"genere":["Ciencia Ficción", "Futurista"],
+		"any":"2016",
+		"img":"tres.jpg"
+		
+	},
+	{
+		"titol":"Snowfall",
+		"sinopsi":"Los Ángeles, 1983. Drama sobre el origen de la epidemia del crack y su devastador impacto en la cultura como la conocemos. ",
+		"genere":["Drama", "Drogas"],
+		"any":"2017",
+		"img":"snowfall.jpg"
+		
+	},
+	{
+		"titol":"You",
+		"sinopsi":"n neoyorquino obsesivo pero brillante, aprovecha las nuevas tecnologías para conquistar a Beck (Elizabeth Lail), la mujer de sus sueños. Gracias a la hiperconectividad que ofrece la tecnología moderna",
+		"genere":["Thriller", "Internet", "Informática"],
+		"any":"2018",
+		"img":"you.jpg"
+		
+	},
+	{
+		"titol":"Terror",
+		"sinopsi":"En el año 1847, un equipo de expedición de la Marina Real británica es enviado al Ártico, en busca del Paso del Noroeste. Pero una vez allí es atacado por un misterioso depredador que acecha a los barcos y a sus tripulaciones en un juego desesperado de incertidumbre y supervivencia.",
+		"genere":"Fantástico",
+		"any":"2018",
+		"img":"terror.jpg"
+		
+	}
+
+]

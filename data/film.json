@@ -1,0 +1,76 @@
+[
+	{
+		"titol":"El rey león",
+		"sinopsi":"Después del asesinato de su padre, un joven príncipe león huye de su reino solo para aprender el verdadero significado de responsabilidad y valentía.",
+		"genere":"Dibuixos animats",
+		"ano":"2019",
+		"img":"rey-leon.jpg"
+		
+		
+	},
+
+	{
+		"titol":"Terminator",
+		"sinopsi":"Sarah Connor une todas sus fuerzas con una mujer cyborg para proteger a una joven de un extremadamente poderoso y nuevo Terminator.",
+		"genere":"Acción",
+		"ano":"2019",
+		"img":"terminator.jpg"
+		
+	
+	},
+
+	{
+		"titol":"Predator",
+		"sinopsi":"Cuando el pequeño Rory (Jacob Tremblay) activa accidentalmente el regreso a la Tierra de los yautjas, desencadenará la vuelta de los cazadores más letales del universo, una especie extraterrestre caracterizada por convertir en su trofeo al resto de criaturas y por obtener su poder a través de la hibridación.",
+		"genere":"Terror",
+		"ano":"2018",
+		"img":"predator.jpg"
+		
+	},
+	{
+		"titol":"Raya y el último Drágon",
+		"sinopsi":"En el fantástico mundo de Kumandra, humanos y dragones vivieron juntos hace mucho tiempo en perfecta armonía. Pero cuando unas fuerzas del mal amenazaron el territorio, los dragones se sacrificaron para salvar a la humanidad.",
+		"genere":"Dibuixos animats",
+		"ano":"2020",
+		"img":"raya_and_the_last_dragon.jpg"
+	
+		
+	},
+	{
+		"titol":"The Owners",
+		"sinopsi":"Inglaterra rural, principios de los noventa: los amigos de la infancia Nathan y Terry son inducidos por el sociópata local para robar a los Huggins, un médico anciano y su esposa. La novia de Nathan, Mary, está totalmente en contra del plan",
+		"genere":"Terror",
+		"ano":"2020",
+		"img":"the_owners.jpg"
+		
+		
+	},
+	{
+		"titol":"Y llovieron pájaros",
+		"sinopsi":"Esta es la historia de tres ancianos que han elegido retirarse del mundo y vivir en los bosques de Canadá. Al tiempo que un gran incendio amenaza la región, alguien llega hasta su escondite: una joven fotógrafa que busca a un tal Boychuck. ",
+		"genere":"Drama",
+		"ano":"2019",
+		"img":"il_pleuvait_des_oiseaux.jpg"
+		
+		
+	},
+	{
+		"titol":"Un mal viaje",
+		"sinopsi":"Dos amigos se embarcan en un viaje por carretera a través del país haciendo bromas con cámara oculta a la gente.",
+		"genere":"comedia",
+		"ano":"2021",
+		"img":"bad_trip.jpg"
+		
+		
+	},
+	{
+		"titol":"El caracol y la ballena",
+		"sinopsi":"Un caracol anhela ver el mundo y se sube a la cola de una ballena. Juntos emprenden un viaje increíble, atraviesan témpanos y volcanes.",
+		"genere":"Animación",
+		"ano":"2021",
+		"img":"the_snail_and_the_whale.jpg"
+		
+		
+	}
+
+]

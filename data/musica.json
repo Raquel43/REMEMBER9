@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "titulo": "Eso que tu me das",
+        "artista": "Pau Dones",
+        "imagen": "jarabe-palo.png",
+        "tiempo": "3:19",
+        "cancion": "esoQueDas"
+    },
+    {
+        "id": 2,
+        "titulo": "quimera",
+        "artista": "Alba Reche",
+        "imagen": "quimera.jpg",
+        "tiempo": "3:19",
+        "cancion": "quimera"
+    },
+    {
+        "id": 3,
+        "titulo": "Fuentes de Ortíz(Live session)",
+        "artista": "Kenia OS",
+        "imagen": "ortiz.jpg",
+        "tiempo": "3:09",
+        "cancion": "fuentes"
+    },
+    {
+        "id": 4,
+        "titulo": "Amorfina",
+        "artista": "Marlon",
+        "imagen": "amorfina.jpg",
+        "tiempo": "2:59",
+        "cancion": "amorfina"
+    },
+    {
+        "id": 5,
+        "titulo": "Cigarrito y Café",
+        "artista": "Josue Alaniz, Carlos Colosio",
+        "imagen": "cigarro.jpg",
+        "tiempo": "2:51",
+        "cancion": "cigarrito"
+    },
+    {
+        "id": 6,
+        "titulo": "La Canción",
+        "artista": "Sebastián Romero",
+        "imagen": "romero.jpg",
+        "tiempo": "4:32",
+        "cancion": "cancion"
+    }
+]

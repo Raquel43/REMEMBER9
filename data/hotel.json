@@ -1,0 +1,31 @@
+[
+	{
+		"nombre":"Hotel Hospes Maricel y Spa",
+		"descripcion":"El Hotel Hospes Maricel y Spa es un hotel impresionante situado a solo 10 minutos en coche de Palma de Mallorca.",
+		"direccion":"Carretera d'Andratx, 11- (urb. Cas Català), Cas Català",
+		"telefono":"971707744",
+		"img":"hospes.jpg"
+	},
+	{
+		"nombre":"Hotel Las Arenas",
+		"descripcion":"Este hotel con vistas al mar está ubicado a unos pasos de la playa de Ca'n Pastilla.",
+		"direccion":"Tito Livio,15, Can Pastilla",
+		"telefono":"971260750",
+		"img":"arenas.jpg"
+	},
+	{
+		"nombre":"Las Gaviotas Suites Hotel & Spa",
+		"descripcion":"Este hotel de diseño se encuentra a 100 metros de la playa del Muro, en Mallorca. Las Gaviotas Suites Hotel & Spa está situado en 15.000 m² de jardines y cuenta con piscinas al aire libre y soláriums.",
+		"direccion":"Avenida Albufera, 51, Playa de Muro",
+		"telefono":" 971890890",
+		"img":"gaviotas.jpg"
+	},
+	{
+		"nombre":"Inturotel Esmeralda Park",
+		"descripcion":"Este aparthotel cuenta con piscinas al aire libre y WiFi gratuita en todas sus instalaciones, y está situado en el paseo marítimo de la playa Cala Esmeralda. Los apartamentos cuentan con balcón privado con vistas al mar, a la piscina o al jardín.",
+		"direccion":"Carrer de Sant Magí, 54, 07013 Palma,",
+		"telefono":"971657274",
+		"img":"esme.jpg"
+	}
+	
+]

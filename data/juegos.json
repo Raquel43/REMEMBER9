@@ -1,0 +1,38 @@
+[
+	{
+		"titol":"Fortnite",
+		"descripcion":"Battle Royale gratuito con un montón de modos de juego diferentes para todo tipo de jugadores",
+		"any":"2017",
+		"img":"fortnite.jpg"
+		
+	},
+	{
+		"titol":"Minecraft",
+		"descripcion":"Minecraft es un videojuego de construcción, de tipo «mundo abierto» o sandbox",
+		"any":"2011",
+		"img":"mine.jpg"
+		
+	},
+	{
+		"titol":"Cyberpunk",
+		"descripcion":"Adéntrate en el mundo de Cyberpunk 2077, un RPG de mundo abierto ambientado en un futuro siniestro ",
+		"any":"2020",
+		"img":"cyberpunk.jpg"
+		
+	},
+	{
+		"titol":"Final Fantasy VII Remake",
+		"descripcion":" Es una nueva versión del videojuego Final Fantasy VII del año 1997 para la consola PlayStation. La historia sigue al mercenario Cloud Strife mientras él y el grupo ecoterrorista AVALANCHE luchan contra la corrupta megacorporación de Shinra y el legendario exsoldado de Shinra Sefirot.",
+		"any":"2020",
+		"img":"final.jpg"
+		
+	},
+	{
+		"titol":"The Last of Us Part II",
+		"descripcion":"Es un título que invita al jugador a tomar cuidado en sus decisiones de ataque porque, como era de esperarse, los recursos y armas en el fin del mundo son limitados. Es un juego más de sigilo que de acción.",
+		"any":"2020",
+		"img":"last.jpg"
+		
+	}
+	
+]

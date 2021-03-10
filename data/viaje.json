@@ -1,0 +1,23 @@
+[
+	{
+		"lugar":"Alemania",
+		"descripcion":"Al pensar en Alemania, lo primero que uno recuerda es aquel gran muro de hierro que dividió el país durante años, dejando una gran impronta en la historia no solo de los alemanes sino del mundo entero, pero Alemania es mucho más que el recuerdo de una muralla. Sus hermosas ciudades ofrecen opciones para todos los gustos.Y hasta en el pueblo más pequeño del país se puede disfrutar de un paisaje y una vista inigualables, dignos de ser visitados y retratados.",
+		"img":"alemania.jpeg"
+	},
+	{
+		"lugar":"Paris",
+		"descripcion":"París es la capital de Francia y una de las ciudades más visitadas de Europa -y del mundo-, tiene más de una razón para ser recorrida. Quizás se deba a que ofrece la maravillosa Torre Eiffel, a su interminable red de metro, o sus paseos por el Río Sena, por su idioma o por la gran cantidad de historia en cada paso y rincón. O tal vez porque París es un lugar al que no podemos dejar de ir al menos una vez en la vida.",
+		"img":"paris.jpg"
+	},
+	{
+		"lugar":"America",
+		"descripcion":"Continente alargado que reposa sobre una gran espina dorsal montañosa, nace en Alaska y se hunde en la Tierra del Fuego, América, el continente de las esperanzas y los fracaso, el continente de la naturaleza y la frontera. América, tierra paradisíaca y tierra desolada",
+		"img":"america.jpg"
+	},
+	{
+		"lugar":"China",
+		"descripcion":"De cara a hacer un viaje de turismo, solo mirando el mapa constatarás que China es mucho más que un país, es casi un continente. Por ell tienes un gran abanico y lugares que bien merecen una visita",
+		"img":"china.jpg"
+	}
+	
+]

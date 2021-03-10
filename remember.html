@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Remember</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="/img/corazon.png" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-1 d-none d-md-block logo">
+          <a href="#"><img src="img/cor.png" width="60%" alt="" /></a>
+        </div>
+        <div class="col-12 col-sm-8 col-lg-6 order-2 order-sm-1 buscar mb-2 mb-sm-0">
+          <form action="">
+            <div class="row g-0">
+              <div class="col-10">
+        <input type="text" name="" id="buscar" placeholder="Amigos, Lugares y cosas que te gustan" />
+              </div>
+              <div class="col-1">
+                <i class="fas fa-search"></i>
+              </div>
+             </div>
+            <label>Categoria:</label>
+            <select id="categoria" name="categoria">
+              <option selected disabled value="-----">------</option>
+              <option value="film">Peliculas</option>
+              <option value="serie">Series</option>
+              <option value="musica">Musica</option>
+              <option value="juegos">Videojuegos</option>
+              <option value="restaurante">Restaurantes</option>
+              <option value="hotel">Hoteles</option>
+              <option value="viaje">Viajes</option>
+            </select>
+          </form>
+        </div>
+        <nav
+          class="col-12 col-sm-3 col-lg-2 order-1 order-sm-2 menu d-flex justify-content-between ms-auto mb-2 mb-sm-0 ">
+          <a href=""><i class="fas fa-users"></i></a>
+          <a href=""><i class="fas fa-bell"></i></a>
+          <a href=""><i class="fas fa-comments"></i></a>
+          <div id="imagenUser">
+          </div>
+          <a id="salir" href="index.html">SALIR</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="row">
+      <!-- Barra lateral izquierda -->
+      <div class="col-md-3 barra-lateral-izquierda" id="barra-lateral-izquierda">
+        <nav>
+          <button id="principal"><i class="fas fa-paper-plane"></i> Pantalla principal</button>
+          <button id="amigos"><i class="fas fa-users"></i> Usuarios</button>
+          <button id="pelis"><i class="fas fa-film"></i> Peliculas</button>
+          <button id="series"><i class="fab fa-firstdraft"></i> Series</button>
+          <button id="musica"><i class="fas fa-music"></i> Musica</button>
+          <button id="juegos"><i class="fab fa-playstation"></i> Videojuegos</button>
+          <button id="rest"><i class="fas fa-utensils"></i> Restaurantes</button>
+          <button id="hotel"><i class="fas fa-hotel"></i> Hoteles</button>
+          <button id="viajes"><i class="fas fa-plane-departure"></i> Viajes</button>
+        </nav>
+      </div>
+
+      <a href="#" class="fondo-enlace d-md-none" id="fondo-enlace"></a>
+      <a href="#" class="btn-menu d-md-none d-flex justify-content-between" id="btn-menu">
+        <span>Menu</span>
+        <i class="fas fa-bars"></i>
+      </a>
+      <!-- Contenido Principal -->
+      <div class="col contenido-principal" id="contenido">
+        
+        <div class="publicar">
+          <div class="row">
+            <div class="col">
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2 foto" id="fotoUsuario">
+              </div>
+            <div class="col">
+              <form action="">
+                <textarea name="mensaje" id="mensaje" placeholder="Publicar Mensaje"></textarea>
+                <div class="contenedor-botones d-flex justify-content-between">
+                  <div class="media">
+                    <a href=""><i class="fas fa-image"></i></a>
+                    <a href=""><i class="fas fa-play"></i></a>
+                    <a href=""><i class="fas fa-music"></i></a>
+                  </div>
+                  <div>
+                    <button type="button" class="bg-danger" id="Borrar">Borrar mensajes</button>
+                    <button type="button" id="Publicar">Publicar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Publicacion #1 -->
+        <div id="publicaciones" class="publicacion">
+          
+          <div class="row">
+            <div class="col-2 foto">
+              <a href="#">
+                <img src="img/raquel.jpg" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="post">
+                <a href="#" class="nombre">Raquel Arqués Toro</a>
+                <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sed, ipsam rerum
+                  dolore corporis possimus ea aliquid fugit nulla quibusdam?</p>
+                <div class="caja-botones d-flex justify-content-between align-item-center">
+                  <button><i class="far fa-thumbs-up"></i></button>
+                  <p>15 <i class="far fa-thumbs-up"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-10 offset-2">
+              <div class="comentarios">
+                <div class="row g-0 comentario">
+                  <div id="foto2" class="col-1 foto">
+                   </div>
+                  <div class="col">
+                    <form action="">
+                      <textarea name="" id="" placeholder="comentario"></textarea>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto">
+                    <a href="#">
+                      <img src="img/cristina.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <p class="respuesta">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta eius magni beatae
+                      laborum quos pariatur odio a possimus molestias!
+                    </p>
+                    <a href="#" class="me-gusta">Me gusta</a>
+                  </div>
+                </div>
+
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto">
+                    <a href="#">
+                      <img src="img/alex.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <p class="respuesta">
+                      Consequuntur soluta eius magni beatae laborum quos pariatur odio a possimus molestias!
+                    </p>
+                    <a href="#" class="me-gusta">Me gusta</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Publicacion #2 -->
+        <div class="publicacion">
+          <div class="row">
+
+            <div class="col-2 foto">
+              <a href="#">
+                <img src="img/alex.jpg" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="post">
+                <a href="#" class="nombre">Alex Vera Rodriguez</a>
+                <div class="imagen">
+                  <img src="img/pelis.jpg" alt="">
+                </div>
+                <div class="caja-botones d-flex justify-content-between align-item-center">
+                  <button><i class="far fa-thumbs-up"></i></button>
+                  <p>15 <i class="far fa-thumbs-up"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-10 offset-2">
+              <div class="comentarios">
+                <!--Comentario #1-->
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto" id="foto3">
+                    </div>
+                  <div class="col">
+                    <form action="">
+                      <textarea name="" id="" placeholder="comentario"></textarea>
+                    </form>
+                  </div>
+                </div>
+                <!--comentario #2-->
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto">
+                    <a href="#">
+                      <img src="img/cristina.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <p class="respuesta">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta eius magni beatae
+                      laborum quos pariatur odio a possimus molestias!
+                    </p>
+                    <a href="#" class="me-gusta">Me gusta</a>
+                  </div>
+                </div>
+                <!--comentario #3-->
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto">
+                    <a href="#">
+                      <img src="img/alex.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <p class="respuesta">
+                      Consequuntur soluta eius magni beatae laborum quos pariatur odio a possimus molestias!
+                    </p>
+                    <a href="#" class="me-gusta">Me gusta</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Publicacion #3 -->
+        <div class="publicacion">
+          <div class="row">
+            <div class="col-2 foto">
+              <a href="#">
+                <img src="img/cristina.jpg" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="post">
+                <a href="#" class="nombre">Cristina Verdi </a>
+                <div class="imagen">
+                  <img src="img/viajar.jpg" alt="">
+                </div>
+                <div class="caja-botones d-flex justify-content-between align-item-center">
+                  <button><i class="far fa-thumbs-up"></i></button>
+                  <p>15 <i class="far fa-thumbs-up"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-10 offset-2">
+              <div class="comentarios">
+                <!--Comentario #1-->
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto" id="foto4">
+                   </div>
+                  <div class="col">
+                    <form action="">
+                      <textarea name="" id="" placeholder="comentario"></textarea>
+                    </form>
+                  </div>
+                </div>
+                <!--comentario #2-->
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto">
+                    <a href="#">
+                      <img src="img/cristina.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <p class="respuesta">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta eius magni beatae
+                      laborum quos pariatur odio a possimus molestias!
+                    </p>
+                    <a href="#" class="me-gusta">Me gusta</a>
+                  </div>
+                </div>
+                <!--comentario #3-->
+                <div class="row g-0 comentario">
+                  <div class="col-1 foto">
+                    <a href="#">
+                      <img src="img/alex.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="col">
+                    <p class="respuesta">
+                      Consequuntur soluta eius magni beatae laborum quos pariatur odio a possimus molestias!
+                    </p>
+                    <a href="#" class="me-gusta">Me gusta</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Barra lateral derecha -->
+      <div class="col-3 barra-lateral-derecha d-none d-lg-inline-block">
+        <h3>Publicidad</h3>
+        <div class="ads">
+          <a href=""><img src="img/hotel.jpg" width="300" alt=""></a>
+          <a href=""><img src="img/music.jpg" width="300" alt=""></a>
+          <a href=""><img src="img/vino.jpg" width="300" alt=""></a>
+        </div>
+        <footer>
+          <a href="#">Privacidad</a>
+          <a href="#">Condiciones</a>
+          <a href='https://es.pngtree.com/so/clipart-de-corazón' target="blank_">Icono Web</a>
+          <img src="img/cor.jpg" alt="">
+          <p class="copyright"> Remember &copy; 2021</p>
+        </footer>
+      </div>
+    </div>
+   
+  </main>
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/menu.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  </script>
+  <script src="js/app2.js" type="module"></script>
+  <script src="js/films.js" type="module"></script>
+  <script src="js/series.js" type="module"></script>
+  <script src="js/music.js" type="module"></script>
+  <script src="js/juego.js" type="module"></script>
+  <script src="js/restaurante.js" type="module"></script>
+  <script src="js/hotel.js" type="module"></script>
+  <script src="js/viajes.js" type="module"></script>
+
+</body>
+
+</html>

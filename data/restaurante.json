@@ -1,0 +1,43 @@
+[
+	{
+		"nombre":"Foster's Hollywood",
+		"descripcion":"Hamburguesas y comida típica americana y tex-mex en cadena de diners con decoración industrial y de películas.",
+		"direccion":"C.C. Ocimax, Carrer del Bisbe Pere de Puigdorfila, 1, 07010",
+		"horario":["13:00-17:00","20:00-22:00"],
+		"telefono":"971752225",
+		"img":"foster.jpg"
+	},
+	{
+		"nombre":"Hong Thai Takeaway",
+		"descripcion":"Restaurante tailandés",
+		"direccion":"Carrer de son Espanyolet, 15, 07014 Palma",
+		"telefono":"685687681",
+		"horario":["13:00-16:00","19:00-22:00"],
+		"img":"thai.jpg"
+	},
+	{
+		"nombre":"TEMA",
+		"descripcion":"Ambiente relajante para disfrutar de nuestra excelente tarta flambeada casera, vinos perfectos y los mejores cócteles.",
+		"direccion":"Carrer de Pou, 31, bajos, 07013 Palma",
+		"telefono":" 671638003",
+		"horario":["jueves","20:00-23:00"],
+		"img":"tema.jpg"
+	},
+	{
+		"nombre":"Krishná",
+		"descripcion":"Comida indú",
+		"direccion":"Carrer de Sant Magí, 54, 07013 Palma,",
+		"telefono":"671124900",
+		"horario":"19:00-24:00",
+		"img":"krisna.jpg"
+	},
+	{
+		"nombre":"Millor",
+		"descripcion":"Comida típica mallorquina",
+		"direccion":"Carrer d'Espartero, 24, 07014 Palma",
+		"telefono":"971456961",
+		"horario":"12:00-16:00",
+		"img":"millor.jpg"
+	}
+	
+]
